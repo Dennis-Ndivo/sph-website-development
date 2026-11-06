@@ -7,9 +7,8 @@ import Activities from '@/components/stw/Activities'
 const SwahiliTechWomen = () => {
   return (
     <>
+      
       <STWHero />
-      <STWExplanation />
-      <Activities />
       <div style={{ backgroundColor: '#fff' }} className='p-6'>
         <div className='container '>
           <section>
@@ -38,6 +37,10 @@ const SwahiliTechWomen = () => {
           </section>
         </div>
       </div>
+      <STWExplanation />
+      <Activities />
+      
+
     </>
   )
 }

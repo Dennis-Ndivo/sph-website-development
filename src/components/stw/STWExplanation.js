@@ -32,7 +32,7 @@ const STWExplanation = () => {
             <div className='w-85 w-md-100 mx-auto me-md-auto'>
               <img
                 className='img-fluid'
-                src='/stw/image-1.png'
+                src='/images/swahilitechwomen/STW2.jpeg'
                 alt='Image Description'
               />
             </div>

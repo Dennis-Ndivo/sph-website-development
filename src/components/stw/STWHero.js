@@ -65,13 +65,13 @@ const STWHero = () => {
                 <div
                   className='d-none d-md-block bg-img-center h-100'
                   style={{
-                    backgroundImage: 'url(/images/swahilitechwomen/micky.jpeg)',
+                    backgroundImage: 'url(/images/swahilitechwomen/STW.jpeg)',
                   }}
                 />
                 <div className='d-md-none w-75 mx-auto ms-sm-auto'>
                   <img
                     className='img-fluid'
-                    src='/images/swahilitechwomen/micky.jpeg'
+                    src='/images/swahilitechwomen/STW.jpeg'
                     alt='Image Description'
                   />
                 </div>

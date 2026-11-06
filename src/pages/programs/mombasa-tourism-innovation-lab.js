@@ -4,8 +4,12 @@
 import Logo from '@/components/shared/Logo'
 
 const MombasaTourismInnovationLab = () => {
+
   return (
     <>
+
+
+
       {/* hero */}
       <div className='bg-soft-primary-light position-relative py-4 py-md-0'>
         <div className='container'>
@@ -43,63 +47,112 @@ const MombasaTourismInnovationLab = () => {
       </div>
 
      
-      <div className='container content-space-1 content-space-t-md-4 content-space-b-md-3'>
+      <div className='container content-space-1 content-space-t-md-4 content-space-b-md-3 '>
+        
         <section>
           <h2 className='text-center'>About</h2>
-          <p>
-            The Mombasa innovation lab, hosted at Swahilipot Hub Foundation,
-            seeks to inspire the interest of opportunity youth in Mombasa in
-            culture and heritage tourism as a means of Job creation. The logic
-            of change is underpinned by this quote from the Cabinet secretary
-            Tourism and Wildlife.
-          </p>
 
-          <div className='card m-5 p-5'>
-            <figure>
-              <blockquote className='blockquote'>
-                <p>
-                  It is no longer possible for travel and tourism providers, or
+        <p style={{ fontSize: 20 }}>
+  The Mombasa innovation lab, hosted at Swahilipot Hub Foundation, seeks to
+  inspire the interest of opportunity youth in Mombasa in Tourism, Culture and
+  heritage as a means of Job creation. The logic of change is underpinned by
+  this quote from the Cabinet secretary Tourism and Wildlife.
+</p>
+
+
+          <>
+  {/* Features */}
+  <div className="container">
+    <div className="banner-end">
+      <div className="row align-items-md-center">
+        <div className="col-md-6 order-md-2">
+          <div className="p-5 p-md-7">
+            {/* Heading */}
+            <div className="mb-7">
+              
+              
+             
+                <p >
+                  <h5>
+                  "It is no longer possible for travel and tourism providers, or
                   destinations, to continue in a “business as usual” model or
                   mind-set. Innovation and change coupled with agility and
                   ability to respond are critical for success today and into the
-                  future.
+                  future."</h5>
                 </p>
-              </blockquote>
+              
+            </div>
+            {/* End Heading */}
+           
+          </div>
+
+
+          <div className='card m-5 p-5'>
+            <figure>
+              
+             
               <figcaption className='blockquote-footer'>
                 Hon. Najib Balala{' '}
                 <cite title='Source Title'>EGH Cabinet Secretary</cite>
               </figcaption>
             </figure>
           </div>
+        </div>
+        {/* End Col */}
+        <div className="col-md-6 content-space-md-1">
+          <div className="w-85 w-md-100 mx-auto me-md-auto">
+            <img
+              className="img-fluid"
+              src="../images/balala.jpg"
+              alt="Image Description"
+              style={{height:'400px',width:'400px'}}
+            />
+          </div>
+        </div>
+        {/* End Col */}
+      </div>
+      {/* End Row */}
+    </div>
+  </div>
+  {/* End Features */}
+</>
 
-          <div className='container m-4 p-4'>
-            <p>
+
+
+
+
+
+
+
+
+          <div className='container m-4 p-4 '>
+            <p style={{ fontSize: 20 }}>
               The inexistence of a structured way to innovate and scale new
               tourism products that entice the modern youthful traveller, who is
               more interested in the experience and less on the physical
               possessions, has led to reduction of touristic numbers.
             </p>
-            <p>
+            <p style={{ fontSize: 20 }}>
               With support from the European Union, Camoes IP, Jumuia ya county
               Za Pwani, and the Go-Blue project to incubate innovative ideas in
-              cultural and heritage tourism in Mombasa county.
+              tourism, culture and heritage in Mombasa county.
             </p>
             <h3>Objectives of the Mombasa Tourism Innovation Lab</h3>
-            <ul>
-              <li>
-                Create jobs for young people by developing new tourism products
-                that are yet to be developed.
-              </li>
-              <li>
-                Become a vehicle to incubate grassroot tourism ideas in Mombasa
-                county.
-              </li>
-              <li>
-                Develop research and key data points for advancement of the
-                Tourism Industry.
-              </li>
-              <li>Contribute in rejuvenating the coastal tourism product.</li>
-            </ul>
+            <ul style={{ fontSize: 20 }}>
+  <li>
+    Create jobs for young people by developing new tourism products that are yet
+    to be developed.
+  </li>
+  <li>
+    Become a vehicle to incubate grassroot tourism ideas in Mombasa county.
+  </li>
+  <li>
+    Develop research and key data points for advancement of the Tourism
+    Industry.
+  </li>
+  <li>Contribute in rejuvenating the coastal tourism product.</li>
+</ul>
+
           </div>
         </section>
 
@@ -149,7 +202,7 @@ const MombasaTourismInnovationLab = () => {
                 <label htmlFor='message'>Messgae</label>
                 <textarea
                   className='form-control is-invalid'
-                  placeholder='Textarea field'
+                  placeholder='Talk to Us'
                   id='message'
                   rows={4}
                   defaultValue={''}
@@ -163,13 +216,13 @@ const MombasaTourismInnovationLab = () => {
           </div>
         </section>
         <section id='apply'>
-          <h2>Apply</h2>
-          <p>
+          <h3 className='text-center'>Apply</h3>
+          <p style={{ fontSize: 20 }}>
             We are receiving proposals from organizations and business in
             tourism, hospitality, and cultural heritage that can benefit from
             the pilot.
           </p>
-          <p>
+          <p style={{ fontSize: 20 }}>
             Kindly click on this link to make your application:
             <a href='https://airtable.com/shru9sDInYXqHsL1g' target='_blank'>
               https://airtable.com/shru9sDInYXqHsL1g
@@ -177,7 +230,7 @@ const MombasaTourismInnovationLab = () => {
           </p>
         </section>
         <section id='partners'>
-          <h2>Applicants</h2>
+          <h3 className='text-center'>Applicants</h3>
           <ul>
             <li>
               {' '}
@@ -193,7 +246,7 @@ const MombasaTourismInnovationLab = () => {
           </ul>
         </section>
         <section id='partners'>
-          <h2>Panel Shortlisting</h2>
+          <h3 className='text-center'>Panel Shortlisting</h3>
           <ul>
             <li>
               {' '}
@@ -209,8 +262,11 @@ const MombasaTourismInnovationLab = () => {
           </ul>
         </section>
       </div>
+
+
     </>
-  )
+)
+
 }
 
 export default MombasaTourismInnovationLab

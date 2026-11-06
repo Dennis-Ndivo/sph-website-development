@@ -20,64 +20,128 @@ const FeatureActions = () => {
           </p>
         </div>
         {/* End Heading */}
-        <div className='row justify-content-end align-items-md-center'>
-          <div className='col-md-6 mb-7 mb-md-0'>
-            {/* Mobile Device */}
-            <figure className=' text-center mx-auto'>
-              <img
-                className='img-fluid'
-                src='/images/aboutpage/7.jpeg'
-                height={400}
-                width={600}
-                alt='Image Description'
-              />
-
-              {/* <div
-                className='position-absolute top-50 translate-middle-y zi-n1'
-                style={{ right: '-7rem' }}
-              >
-                <img
-                  className='img-fluid'
-                  src='../assets/svg/components/shape-8.svg'
-                  alt='SVG'
-                  style={{ width: '10rem' }}
-                />
-              </div> */}
-            </figure>
-            {/* End Mobile Device */}
+        <>
+  {/* Hero */}
+  <div className="content-space-b-1 content-space-b-md-1">
+    <div className="bg-soft-primary-light">
+      <div className="container">
+        <div className="row justify-content-center justify-content-lg-between">
+          <div className="col-md-6 content-space-t-1 content-space-md-1">
+            {/* Heading */}
+            <div className="mb-7">
+              <h1 className="display-4 text-primary mb-3 mb-md-5">
+                <span className="text-warning">Enhancing  —</span>
+                <br />
+                Youth Civic Participation and Community Impact
+              </h1>
+              <p className="lead">
+                <h6>
+                  <ul>
+                    <li>Providing safe and conducive spaces for youth to engage in civic activities and express their ideas.</li><br></br>
+                    <li>Offering holistic support systems, including mentorship programs, to empower youth and enhance their skills for community involvement</li><br></br>
+                    <li>Ensuring access to social services that address the needs of young people and enable them to actively participate in social change initiatives.</li><br></br>
+                  </ul>
+                </h6>
+              </p>
+            </div>
+            {/* End Heading */}
+            <div className="d-grid gap-3">
+              {/* Info Block */}
+              <div className="d-flex">
+                <div className="flex-grow-1 ms-4">
+                  
+                  <p></p>
+                </div>
+              </div>
+              {/* End Info Block */}
+              {/* Info Block */}
+              <div className="d-flex">
+                <div className="flex-grow-1 ms-4">
+                  
+                  <p></p>
+                </div>
+              </div>
+              {/* End Info Block */}
+            </div>
+            {/* End Row */}
           </div>
           {/* End Col */}
-          <div className='col-md-6'>
-            <div className='p-md-5 p-lg-7'>
-              {/* Heading */}
-              <div className='mb-7'>
-                <h3>
-                  Enhancing Youth Civic Participation and Community Impact
-                </h3>
+          <div className="col-sm-10 col-md-6 col-lg-5">
+            <div className="row gx-2 transform-y-5rem">
+              <div className="col-6">
+                <div className="d-grid gap-2">
+                  {/* Images */}
+                  <div
+                    className="d-none d-md-block bg-img-center"
+                    style={{
+                      backgroundImage: "url(../assets/img/225x292/img1.jpg)",
+                      height: "18.25rem"
+                    }}
+                  />
+                  <div
+                    className="d-none d-md-block bg-img-center"
+                    style={{
+                      backgroundImage: "url(../assets/img/225x324/img1.jpg)",
+                      height: "20.25rem"
+                    }}
+                  />
+                  <img
+                    className="d-md-none img-fluid w-100"
+                    src="../assets/img/225x292/img1.jpg"
+                    alt="Image Description"
+                  />
+                  <img
+                    className="d-md-none img-fluid w-100"
+                    src="../assets/img/225x324/img1.jpg"
+                    alt="Image Description"
+                  />
+                  {/* End Images */}
+                </div>
               </div>
-              {/* End Heading */}
-              {/* List Checked */}
-              <ul className='list-checked list-checked-primary mb-0'>
-                <li className='list-checked-item'>
-                  Providing safe and conducive spaces for youth to engage in
-                  civic activities and express their ideas.
-                </li>
-                <li className='list-checked-item'>
-                  Offering holistic support systems, including mentorship
-                  programs, to empower youth and enhance their skills for
-                  community involvement
-                </li>
-                <li className='list-checked-item'>
-                  Ensuring access to social services that address the needs of
-                  young people and enable them to actively participate in social
-                  change initiatives.
-                </li>
-              </ul>
-              {/* End List Checked */}
+              {/* End Col */}
+              <div className="col-6">
+                <div className="d-grid gap-2">
+                  {/* Images */}
+                  <div
+                    className="d-none d-md-block bg-img-center"
+                    style={{
+                      backgroundImage: "../assets/img/225x324/img1.jpg",
+                      height: "22rem"
+                    }}
+                  />
+                  <div
+                    className="d-none d-md-block bg-img-center"
+                    style={{
+                      backgroundImage: "url(../assets/img/225x261/img1.jpg)",
+                      height: "16rem"
+                    }}
+                  />
+                  <img
+                    className="d-md-none img-fluid w-100"
+                    src="../assets/img/225x355/img1.jpg"
+                    alt="Image Description"
+                  />
+                  <img
+                    className="d-md-none img-fluid w-100"
+                    src="../assets/img/225x261/img1.jpg"
+                    alt="Image Description"
+                  />
+                  {/* End Images */}
+                </div>
+              </div>
+              {/* End Col */}
             </div>
+            {/* End Row */}
           </div>
           {/* End Col */}
         </div>
+        {/* End Row */}
+      </div>
+    </div>
+  </div>
+  {/* End Hero */}
+</>
+
         {/* End Row */}
       </div>
       
@@ -85,127 +149,127 @@ const FeatureActions = () => {
       {/* Features */}
       <div className='container overflow-hidden content-space-b-1'>
         <div className='row justify-content-end align-items-md-center'>
-          <div className='col-md-6 order-md-2 mb-7 mb-md-0'>
-            {/* Mobile Device */}
-            <figure className=' text-center mx-auto'>
-              <div className=''>
-                <img
-                  // className='device-mobile-img'
-                  src='/images/spaces/mekatilili/Mekatilili.jpg'
-                  height={400}
-                  width={600}
-                  alt='Image Description'
-                />
-              </div>
-              {/* <div
-                className='position-absolute top-50 translate-middle-y zi-n1'
-                style={{ right: '-7rem' }}
-              >
-                <img
-                  className='img-fluid'
-                  src='../assets/svg/components/shape-1.svg'
-                  alt='SVG'
-                  style={{ width: '10rem' }}
-                />
-              </div> */}
-            </figure>
-            {/* End Mobile Device */}
+        <>
+  {/* Hero */}
+  <div className="bg-primary-dark position-relative pt-3 pt-md-0">
+    <div className="container">
+      <div
+        className="d-none d-md-block col-md-6 position-absolute top-0 end-0 bg-img-center h-100"
+        style={{ backgroundImage: "url(../assets/img/900x700/img6.jpg)" }}
+      />
+      <div className="d-md-none mb-5 mb-md-0">
+        <img
+          className="img-fluid"
+          src="../assets/img/900x700/img2.jpg"
+          alt="Image Description"
+        />
+      </div>
+      <div className="row align-items-lg-center content-space-b-1 content-space-md-3">
+        <div className="col-md-8 col-lg-6">
+          {/* Heading */}
+          <div className="pe-lg-3 mb-7"><h3>Strengthening Partnerships and Collaborations for Youth Empowerment</h3>
+            <p className="lead text-white"><h6> <ul>
+                <li>Fostering partnerships between various stakeholders, such as government institutions, NGOs, and community organizations, to create a comprehensive support system for youth.</li>
+                <li>Collaborating with different sectors to increase opportunities for young people, such as education, employment, and entrepreneurship.</li>
+                <li>Catalyzing systemic change by bringing together diverse actors to collectively address issues affecting youth and create sustainable solutions.</li>
+              </ul></h6>
+              <span className="text-warning">destination?</span>
+            </p>
           </div>
-          {/* End Col */}
-          <div className='col-md-6'>
-            <div className='p-md-5 p-lg-7'>
-              {/* Heading */}
-              <div className='mb-7'>
-                <h3>
-                  Strengthening Partnerships and Collaborations for Youth
-                  Empowerment
-                </h3>
-              </div>
-              {/* End Heading */}
-              {/* List Checked */}
-              <ul className='list-checked list-checked-primary mb-0'>
-                <li className='list-checked-item'>
-                  Fostering partnerships between various stakeholders, such as
-                  government institutions, NGOs, and community organizations, to
-                  create a comprehensive support system for youth.
-                </li>
-                <li className='list-checked-item'>
-                  Collaborating with different sectors to increase opportunities
-                  for young people, such as education, employment, and
-                  entrepreneurship.
-                </li>
-                <li className='list-checked-item'>
-                  Catalyzing systemic change by bringing together diverse actors
-                  to collectively address issues affecting youth and create
-                  sustainable solutions.
-                </li>
-              </ul>
-              {/* End List Checked */}
-            </div>
+          {/* End Heading */}
+          <a className="btn btn-primary" href="#openingPositions">
+            Explore roles <i className="bi-chevron-right small ms-1" />
+          </a>
+        </div>
+        {/* End Col */}
+        <div className="col-md-4 align-self-md-end position-relative z-1">
+          <div
+            className="d-none d-md-block transform-0"
+            style={{
+              marginBottom: "-12rem",
+              marginLeft: "-5rem",
+              marginRight: "10rem"
+            }}
+          >
+            <img
+              className="img-fluid"
+              src="../assets/img/600x600/img1.jpg"
+              alt="Image Description"
+            />
           </div>
+        </div>
+        {/* End Col */}
+      </div>
+      {/* End Row */}
+    </div>
+  </div>
+  {/* End Hero */}
+</>
+
           {/* End Col */}
         </div>
         {/* End Row */}
       </div>
       {/* End Features */}
       {/* Features */}
-      <div className='container overflow-hidden content-space-b-1'>
-        <div className='row justify-content-end align-items-md-center'>
-          <div className='col-md-6 mb-7 mb-md-0'>
-            {/* Mobile Device */}
-            <figure className='text-center mx-auto'>
-              <div>
-                <img
-                  src='/images/aboutpage/5.jpeg'
-                  height={400}
-                  width={400}
-                  alt='Image Description'
-                />
-              </div>
-              <div
-                className='position-absolute top-50 translate-middle-y zi-n1'
-                style={{ left: '-7rem' }}
-              >
-                <img
-                  className='img-fluid'
-                  src='../assets/svg/components/shape-9.svg'
-                  alt='SVG'
-                  style={{ width: '7rem' }}
-                />
-              </div>
-            </figure>
-            {/* End Mobile Device */}
-          </div>
-          {/* End Col */}
-          <div className='col-md-6'>
-            <div className='p-md-5 p-lg-7'>
-              {/* Heading */}
-              <div className='mb-7'>
-                <h3>
-                  Promoting Positive Youth Development and Building Capacities
-                </h3>
-              </div>
-              {/* End Heading */}
-              <ul className='list-checked list-checked-primary mb-0'>
-                <li className='list-checked-item'>
-                  Implementing youth development programs that focus on
-                  nurturing the skills, capacities, and agency of young
-                  individuals.
-                </li>
-                <li className='list-checked-item'>
-                  Offering opportunities for young people to develop their
-                  talents, interests, and strengths through a range of
-                  activities and initiatives.
-                </li>
-                <li className='list-checked-item'>
-                  Equipping young people with assets, including knowledge,
-                  networks, and resources, to enhance their personal growth,
-                  leadership abilities, and long-term success.
-                </li>
-              </ul>
-            </div>
+      <div className='container overflow-hidden content-space-b-1'><br></br><br></br>
+      <>
+  {/* Hero */}
+  <div className="bg-soft-warning position-relative py-4 py-md-0">
+    <div className="container">
+      <div
+        className="d-none d-md-block col-md-6 position-absolute top-0 end-0 bg-img-center h-100"
+        style={{ backgroundImage: "url(../assets/img/900x700/img7.jpg)" }}
+      />
+      <div className="d-md-none mb-5 mb-md-0">
+        <img
+          className="img-fluid"
+          src="../assets/img/900x700/img2.jpg"
+          alt="Image Description"
+        />
+      </div>
+      <div className="row align-items-md-center content-space-md-3">
+        <div className="col-md-6">
+          <div className="pe-lg-3">
+            
+            <h1 className="h2 mb-3 mb-md-5">
+            Promoting Positive Youth Development and Building Capacities.
+            </h1>
+            <p>
+              <h6>
+                <ul>
+                  <li>Implementing youth development programs that focus on nurturing the skills, capacities, and agency of young individuals.</li>
+                  <li>Offering opportunities for young people to develop their talents, interests, and strengths through a range of activities and initiatives.</li>
+                  <li>Equipping young people with assets, including knowledge, networks, and resources, to enhance their personal growth, leadership abilities, and long-term success.</li>
+                </ul>
+              </h6>
+            </p>
           </div>
         </div>
+        {/* End Col */}
+        <div className="col-md-4 align-self-md-end position-relative z-1">
+          <div
+            className="d-none d-md-block transform-0"
+            style={{
+              marginBottom: "-12rem",
+              marginLeft: "-3rem",
+              marginRight: "10rem"
+            }}
+          >
+            <img
+              className="img-fluid"
+              src="../assets/img/600x600/img4.jpg"
+              alt="Image Description"
+            />
+          </div>
+        </div>
+        {/* End Col */}
+      </div>
+      {/* End Row */}
+    </div>
+  </div>
+  {/* End Hero */}<br></br><br></br>
+</>
       </div>
     </>
   )
